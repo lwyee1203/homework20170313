@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.colorBar{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.colorBar1{
+  background-color: #FF0088;
+  width: 5%;
+  height: 7px;
+  float: left;
+}
+
+.colorBar2{
+  background-color: greenyellow;
+  width: 5%;
+  height: 7px;
+  float: left;
+}
+
+.colorBar3{
+  background-color: dodgerblue;
+  width: 5%;
+  height: 7px;
+  float: left;
+}
+
+.colorBar4{
+  background-color: black;
+  width: 85%;
+  height: 7px;
+  float: left;
+}
+
+.wrap{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header{ 
+  float: left;
+  margin: 10px;
+ }
+
+.header-left{
+  float: left;
+  width: 300px;
+}
+
+.header-right{
+  float: right;
+  width: 640px;
+}
+
+.social{
+  float: right;
+  position: relative;
+  bottom: 80px; 
+  right: 10px; 
+}
+
+#menu li{  
+  float: left;
+  position: relative;
+  bottom: 10px; 
+  left: 50px; 
+  display: inline;
+  list-style: none;
+  margin-left: 35px;
+  font-family: Helvetica;
+  font-size: 16px;
+
+}
+
+.a{
+  text-decoration: none;
+  color: #272727;
+}
+
+.a:hover{
+    color: #1E90FF;
+}
+
+.b{
+  text-decoration: none;
+  color: #1E90FF;
+}
+
+.b:hover{
+    color: #930000;
+}
+
+.content{
+  float: left;
+}
+
+.box1{
+  margin-bottom: 30px;
+  height: 415px;
+  background-color: #272727;
+  
+}
+
+.box1-left{
+  float: left;
+  width: 640px;
+  
+}
+
+.box1-right{
+  float: left;
+  width: 300px;
+}
+
+.box1-right h1{
+  color: #1E90FF;
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-top: 30px; 
+  font-family: Arial;
+}
+
+.box1-right p{
+  color: #8E8E8E;
+  text-align: left;
+  font-size: 16px;
+  font-family: Helvetica;
+  padding: 30px;
+}
+
+#read{
+  color: white;
+  font-size: 16px;
+  font-family: Helvetica;
+  float: left;
+  background-color: #3C3C3C;
+  padding: 15px;
+  margin-left: 30px;
+  text-decoration-style: none;
+}
+
+#read:hover{
+  background-color: #ADADAD;
+  color: black;
+}
+
+.introduction p{
+  text-align: center;
+  font-size: 16px;
+  font-family: Helvetica;
+  color: #272727;
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.box2{
+  background-color: white;
+  padding-top: 20px;
+  margin-bottom: 50px;
+ 
+}
+
+.box2-left{
+   float: left;  
+   width: 65%;
+}
+
+.blue{
+  font-family: Arial;
+  font-size: 35px;
+  color: #1E90FF;
+}
+
+.event{
+  margin: 20px;
+}
+
+.pic{
+  float: left;
+}
+
+.detail{
+  float: left;
+  width: 350px;
+  padding: 10px;
+}
+
+.box2 h2{
+  font-size: 35px;
+  font-family: Arial;
+  color: #272727;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.box2 h3{
+  float: left;
+  font-size: 20px;
+  font-family: Helvetica;
+  padding-left: 10px;
+  padding-bottom: 10px; 
+}
+
+.box2 p{
+  float: left;
+  font-size: 16px;
+  font-family: Helvetica;
+  color: #272727;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.box2-right{
+  float: left;
+  width: 35%;
+}
+
+#style li{
+  list-style-image: url(images/dot_blue.gif); 
+  margin: 20px;
+  font-size: 16px;
+  font-family: Helvetica; 
+}
+
+.input{
+  float: left;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin: 15px;
+}
+
+#search{
+  background-color: #F0F0F0;
+  font-family: Helvetica;
+  color: #1E90FF;
+  font-size: 16px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  text-decoration-style: none;
+}
+
+#search:hover{
+  background-color: #6C6C6C;
+  color: #00E3E3;
+}
+.clear{
+  clear: both;
+}
+
+.footer{
+  margin: 20px;
+  text-align: center;
+}
+
+.footer p{
+  font-size: 16px;  
+}
+
